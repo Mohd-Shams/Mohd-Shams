@@ -1,0 +1,39 @@
+# Hi, I'm Shams 👋
+
+### Data Analyst | SQL | Python | Power BI | Excel | Statistics
+
+I build data analytics projects that solve real-world business
+problems using SQL, Python, Power BI, and statistical analysis.
+
+
+# NovCart — E-commerce Performance & Leakage Analytics
+
+> An end-to-end e-commerce analytics project analyzing profitability decline,
+> operational issues, revenue leakage, and recovery opportunities using
+> Python, SQL, Power BI, and AI.
+
+## Business Problem
+
+NovCart experienced a significant Q4 profitability decline, with profit falling much faster than revenue compared with Q3.
+Management needed to identify where the profit leakage was occurring across discounts, costs, returns, delivery, products and regions.
+The goal was to convert these findings into actionable recovery opportunities and provide an AI-powered system for answering business questions.
+
+## Key Findings
+| Key Finding                                                                                     | Business Impact                                                   | Recommendation                                                                                                    |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Profit declined 44.44% in Q4** while revenue declined 28.03%                                  | Profit deteriorated significantly faster than sales               | Prioritize **margin and cost-driver analysis** alongside revenue recovery                                         |
+| **Profit margin fell from 24.38% to 18.82%**                                                    | Lower profitability per ₹ of revenue                              | Review **discounting, product costs and shipping costs** and optimize high-impact drivers                         |
+| **Delayed orders had 26.61% returns vs 10.48% without delays**                                  | Delivery performance is strongly associated with customer returns | Investigate delayed orders by **region, product and delivery partner** and reduce recurring delays                |
+| **Quality issues were 32.33% of returns; Wireless Earbuds had 14.41% return rate**              | Returns create potential revenue and margin leakage               | Investigate **product quality, supplier/product batches and customer complaints** for high-return products        |
+| **Discounting, returns, delivery, shipping and marketing efficiency emerged as recovery areas** | Multiple drivers may be contributing to value leakage             | Build **driver-level recovery scenarios**, validate assumptions, and prioritize initiatives using measured impact |
+
+- [📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)
+
+
+## AI Business Analyst
+**[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
+
+## Dashboard
+![Root Cause & Operations](Power_Bi_Dashboard/RootCause_&_Operations.png)
+![Q4 Leakage Analysis](Power_Bi_Dashboard/Q4Leakage_Analysis.png)
+
