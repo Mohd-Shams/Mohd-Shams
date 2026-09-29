@@ -43,15 +43,16 @@ Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall
 
 ## AI Analyst
 **[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
-Semantic Layer for standardized KPI definitions — Revenue, Profit, Margin, Returns, ROAS, etc.
 
-Evidence Layer connecting validated Python/SQL findings to business questions.
+1. Semantic Layer for standardized KPI definitions — Revenue, Profit, Margin, Returns, ROAS, etc.
 
-LLM-powered reasoning to translate analytical evidence into concise business insights.
+2. Evidence Layer connecting validated Python/SQL findings to business questions.
 
-Natural Language Querying for exploring Q3–Q4 performance, root causes and recovery opportunities.
+3. LLM-powered reasoning to translate analytical evidence into concise business insights.
 
-Streamlit AI interface combining LLM + Semantic Layer + Evidence Pack for grounded business decision support.
+4. Natural Language Querying for exploring Q3–Q4 performance, root causes and recovery opportunities.
+
+5. Streamlit AI interface combining LLM + Semantic Layer + Evidence Pack for grounded business decision support.
 
 
 ## Github Repsitory
