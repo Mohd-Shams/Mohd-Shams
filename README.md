@@ -32,12 +32,12 @@ The goal was to convert these findings into actionable recovery opportunities an
 ## Dashboard
 #### Root Cause & Operations
 
-Q4 revenue fell from ₹38.6M to ₹27.8M (-28.03%), while profit dropped from ₹9.42M to ₹5.24M (-44.44%). The dashboard identifies discounting, returns, delivery, shipping, and regional performance as key operational drivers.
+Diagnosed the operational drivers behind the leakage: delivery delays nearly double return rates (26.6% vs 10.5%), and return volume is concentrated in two underperforming SKUs (Wireless Earbuds, Gaming Laptop) with "Quality Issue" as the top return reason. Confirmed the decline was structural, not regional, by showing a consistent ~40–50% profit drop across all four regions.
 ![Root Cause & Operations](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/RootCause_%26_Operations.png)
 
 #### Q4 Leakage Analysis
 
-The analysis identifies approximately ₹3.63M in modeled recovery opportunities, led by discounting (₹2.45M), marketing efficiency (₹0.61M), return reduction (₹0.42M), delivery (₹0.12M), and shipping (₹0.03M).
+Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall, isolating discounting as the dominant leakage driver (₹2.4M of ₹3.5M total modeled recovery opportunity) — far outweighing marketing inefficiency, returns, and delivery combined. Built a return-count breakdown by reason and linked delivery delay directly to margin compression (24.4% → 18.8%).
 ![Q4 Leakage Analysis](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/Q4Leakage_Analysis.png)
 
 
