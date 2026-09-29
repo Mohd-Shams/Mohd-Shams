@@ -34,6 +34,6 @@ The goal was to convert these findings into actionable recovery opportunities an
 **[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
 
 ## Dashboard
-![Root Cause & Operations](Power_Bi_Dashboard/RootCause_&_Operations.png)
-![Q4 Leakage Analysis](Power_Bi_Dashboard/Q4Leakage_Analysis.png)
+![Root Cause & Operations](Agentic-Revenue-Intelligence-/Power_Bi_Dashboard/RootCause_&_Operations.png)
+![Q4 Leakage Analysis](Agentic-Revenue-Intelligence-/Power_Bi_Dashboard/Q4Leakage_Analysis.png)
 
