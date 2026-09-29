@@ -40,10 +40,8 @@ Q4 revenue fell from ₹38.6M to ₹27.8M (-28.03%), while profit dropped from �
 ![Q4 Leakage Analysis](https://raw.githubusercontent.com/Mohd-Shams/Agentic-Revenue-Intelligence-/main/Power_Bi_Dashboard/Q4Leakage_Analysis.png)
 The analysis identifies approximately ₹3.63M in modeled recovery opportunities, led by discounting (₹2.45M), marketing efficiency (₹0.61M), return reduction (₹0.42M), delivery (₹0.12M), and shipping (₹0.03M).
 
-## AI Business Analyst
+## Project Links
 **[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
-
-##Github Repository
-[📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)
+**[📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)**
 
 
