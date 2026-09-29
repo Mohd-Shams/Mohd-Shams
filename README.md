@@ -6,7 +6,7 @@ I build data analytics projects that solve real-world business
 problems using SQL, Python, Power BI, and statistical analysis.
 
 
-#ANALYTICS PROJECTS
+ANALYTICS PROJECTS
 =========================
 # NovCart — E-commerce Performance & Leakage Analytics
 
