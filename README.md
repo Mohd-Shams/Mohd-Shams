@@ -29,12 +29,6 @@ The goal was to convert these findings into actionable recovery opportunities an
 | **Quality issues were 32.33% of returns; Wireless Earbuds had 14.41% return rate**              | Returns create potential revenue and margin leakage               | Investigate **product quality, supplier/product batches and customer complaints** for high-return products        |
 | **Discounting, returns, delivery, shipping and marketing efficiency emerged as recovery areas** | Multiple drivers may be contributing to value leakage             | Build **driver-level recovery scenarios**, validate assumptions, and prioritize initiatives using measured impact |
 
-- [📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)
-
-
-## AI Business Analyst
-**[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
-
 ## Dashboard
 #### Root Cause & Operations
 
@@ -45,4 +39,11 @@ Q4 revenue fell from ₹38.6M to ₹27.8M (-28.03%), while profit dropped from �
 
 ![Q4 Leakage Analysis](https://raw.githubusercontent.com/Mohd-Shams/Agentic-Revenue-Intelligence-/main/Power_Bi_Dashboard/Q4Leakage_Analysis.png)
 The analysis identifies approximately ₹3.63M in modeled recovery opportunities, led by discounting (₹2.45M), marketing efficiency (₹0.61M), return reduction (₹0.42M), delivery (₹0.12M), and shipping (₹0.03M).
+
+## AI Business Analyst
+**[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
+
+
+- [📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)
+
 
