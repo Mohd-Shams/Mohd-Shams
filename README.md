@@ -8,7 +8,7 @@ problems using SQL, Python, Power BI, and statistical analysis.
 
 ANALYTICS PROJECTS
 =========================
-# NovCart — E-commerce Performance & Leakage Analytics
+# 1. NovCart — E-commerce Performance & Leakage Analytics
 
 > An end-to-end e-commerce analytics project analyzing profitability decline,
 > operational issues, revenue leakage, and recovery opportunities using
@@ -60,7 +60,7 @@ Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall
 
 
 
-# 🎮 A/B Testing: Mobile Game Retention (Cookie Cats)
+# 2.A/B Testing: Mobile Game Retention (Cookie Cats)
 
 **Question:** Does moving the first progression gate from Level 30 to Level 40 improve player retention?
 
