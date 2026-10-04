@@ -58,7 +58,7 @@ Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall
 ## Github Repsitory
 **[📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)**
 
-## 🎮 A/B Testing: Mobile Game Retention (Cookie Cats)
+#🎮 A/B Testing: Mobile Game Retention (Cookie Cats)
 
 **Question:** Does moving the first progression gate from Level 30 to Level 40 improve player retention?
 
