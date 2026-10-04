@@ -5,9 +5,12 @@
 I build data analytics projects that solve real-world business
 problems using SQL, Python, Power BI, and statistical analysis.
 
+---
 
-ANALYTICS PROJECTS
-=========================
+# ANALYTICS PROJECTS
+
+---
+
 # 1. NovCart — E-commerce Performance & Leakage Analytics
 
 > An end-to-end e-commerce analytics project analyzing profitability decline,
@@ -33,13 +36,14 @@ The goal was to convert these findings into actionable recovery opportunities an
 #### Root Cause & Operations
 
 Diagnosed the operational drivers behind the leakage: delivery delays nearly double return rates (26.6% vs 10.5%), and return volume is concentrated in two underperforming SKUs (Wireless Earbuds, Gaming Laptop) with "Quality Issue" as the top return reason. Confirmed the decline was structural, not regional, by showing a consistent ~40–50% profit drop across all four regions.
-![Root Cause & Operations](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/RootCause_%26_Operations.png)
+
+![Root Cause & Operations](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/RootCause_%26_Operations.png?raw=true)
 
 #### Q4 Leakage Analysis
 
 Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall, isolating discounting as the dominant leakage driver (₹2.4M of ₹3.5M total modeled recovery opportunity) — far outweighing marketing inefficiency, returns, and delivery combined. Built a return-count breakdown by reason and linked delivery delay directly to margin compression (24.4% → 18.8%).
-![Q4 Leakage Analysis](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/Q4Leakage_Analysis.png)
 
+![Q4 Leakage Analysis](https://github.com/Mohd-Shams/NovCart-E-commerce-Performance-Leakage-Analytics/blob/main/Power_Bi_Dashboard/Q4Leakage_Analysis.png?raw=true)
 
 ## AI Analyst
 **[Launch NovCart AI Analyst](https://novcart-ai.streamlit.app/)**
@@ -54,39 +58,45 @@ Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall
 
 5. Streamlit AI interface combining LLM + Semantic Layer + Evidence Pack for grounded business decision support.
 
-
-## Github Repsitory
+## GitHub Repository
 **[📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)**
 
+---
 
+# 2. A/B Testing — Mobile Game Retention (Cookie Cats)
 
-# 2.A/B Testing: Mobile Game Retention (Cookie Cats)
+> An end-to-end A/B test analysis of ~90,000 mobile game players, using hypothesis
+> testing, confidence intervals, and bootstrap resampling in Python.
 
-**Question:** Does moving the first progression gate from Level 30 to Level 40 improve player retention?
+## Business Problem
 
-**Approach:** Checked data quality and group balance (including a sample ratio mismatch test), removed one extreme outlier, ran two-proportion z-tests with 95% confidence intervals, validated them with a 10,000-iteration bootstrap, and applied a Bonferroni correction for the two metrics.
+A mobile game company wanted to know whether moving the first progression gate from Level 30 to Level 40 would improve Day-1 and Day-7 player retention, and whether any effect was large enough to matter at scale.
+The goal was to turn the statistical result into a clear ship / don't-ship recommendation for the product team.
 
-### 📊 Key Findings
+## Key Findings
+| Key Finding | Business Impact | Recommendation |
+| --- | --- | --- |
+| **Day-7 retention fell from 19.02% to 18.20%** (−0.82 pp, p = 0.0016, 95% CI −1.33 to −0.31 pp) | **≈ 8,183 fewer Day-7 retained players per 1M users** | **Do not adopt the Level 40 gate yet** |
+| **Day-1 retention fell from 44.82% to 44.23%** (−0.59 pp, p = 0.074), CI crosses zero | Inconclusive: the test could reliably detect only ~0.9 pp changes at Day-1 | Treat as **no evidence of improvement**, not proof of no effect; confirm in a follow-up experiment |
+| **10,000-iteration bootstrap matched the z-test intervals** (D7: −1.33 to −0.32 pp) | The Day-7 drop does not depend on normality assumptions | Use the result with confidence for the Day-7 decision |
+| **Bonferroni correction for two metrics** (α = 0.025) | Day-7 stays significant, Day-1 stays not significant | Conclusion is robust to testing two metrics |
+| **One extreme outlier (49,854 rounds) removed; group split 44,699 vs 45,489** (SRM p ≈ 0.0085) | Data quality and randomisation checked before testing | Monitor group balance in any follow-up experiment |
 
+## Results by Metric
 | Metric | Gate 30 (Control) | Gate 40 (Treatment) | Difference | p-value | 95% CI | Result |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
 | **Day-1 Retention** | 44.82% | 44.23% | −0.59 pp | 0.0739 | −1.24 to +0.06 pp | Not significant |
 | **Day-7 Retention** | 19.02% | 18.20% | −0.82 pp | 0.00159 | −1.33 to −0.31 pp | Significant |
 
-### ✅ Validation & Impact
+## Dashboard
 
-| Check | Result |
-| --- | --- |
-| Users analyzed | 90,188 (1 outlier removed) |
-| Group sizes | 44,699 vs 45,489 (SRM p ≈ 0.0085, acceptable) |
-| Bootstrap (10,000 runs) | D1 CI crosses zero; D7 CI stays below zero |
-| Bonferroni (α = 0.025) | D7 still significant, D1 still not |
-| Business impact | ≈ 8,183 fewer Day-7 retained players per 1M users |
+![A/B Testing Report](https://github.com/Mohd-Shams/A-B-Testing/blob/main/A_B_test_report.png?raw=true)
 
-### 🧠 Decision
+## Product Decision
 
 **Do not adopt Gate 40 yet.** Day-1 retention was inconclusive and Day-7 retention was significantly lower. Validate D14/D30 retention, revenue/LTV and engagement in a follow-up experiment before any rollout.
 
 **Tools:** Python • Pandas • NumPy • SciPy • Statsmodels • Matplotlib
 
-🔗 [View project](https://github.com/Mohd-Shams/A-B-Testing)
+## GitHub Repository
+**[📂 View Repository](https://github.com/Mohd-Shams/A-B-Testing)**
