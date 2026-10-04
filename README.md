@@ -58,4 +58,33 @@ Quantified a ₹4.19M (44%) profit decline in Q4 using a profit-bridge waterfall
 ## Github Repsitory
 **[📂 View Repository](https://github.com/Mohd-Shams/Agentic-Revenue-Intelligence-)**
 
+## 🎮 A/B Testing: Mobile Game Retention (Cookie Cats)
 
+**Question:** Does moving the first progression gate from Level 30 to Level 40 improve player retention?
+
+**Approach:** Checked data quality and group balance (including a sample ratio mismatch test), removed one extreme outlier, ran two-proportion z-tests with 95% confidence intervals, validated them with a 10,000-iteration bootstrap, and applied a Bonferroni correction for the two metrics.
+
+### 📊 Key Findings
+
+| Metric | Gate 30 (Control) | Gate 40 (Treatment) | Difference | p-value | 95% CI | Result |
+| --- | ---: | ---: | ---: | ---: | --- | --- |
+| **Day-1 Retention** | 44.82% | 44.23% | −0.59 pp | 0.0739 | −1.24 to +0.06 pp | Not significant |
+| **Day-7 Retention** | 19.02% | 18.20% | −0.82 pp | 0.00159 | −1.33 to −0.31 pp | Significant |
+
+### ✅ Validation & Impact
+
+| Check | Result |
+| --- | --- |
+| Users analyzed | 90,188 (1 outlier removed) |
+| Group sizes | 44,699 vs 45,489 (SRM p ≈ 0.0085, acceptable) |
+| Bootstrap (10,000 runs) | D1 CI crosses zero; D7 CI stays below zero |
+| Bonferroni (α = 0.025) | D7 still significant, D1 still not |
+| Business impact | ≈ 8,183 fewer Day-7 retained players per 1M users |
+
+### 🧠 Decision
+
+**Do not adopt Gate 40 yet.** Day-1 retention was inconclusive and Day-7 retention was significantly lower. Validate D14/D30 retention, revenue/LTV and engagement in a follow-up experiment before any rollout.
+
+**Tools:** Python • Pandas • NumPy • SciPy • Statsmodels • Matplotlib
+
+🔗 [View project](https://github.com/Mohd-Shams/A-B-Testing)
